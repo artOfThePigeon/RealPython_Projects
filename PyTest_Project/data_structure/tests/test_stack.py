@@ -13,6 +13,6 @@ def test_constructor():
     assert len(s) == 0
 
 
-def test_push():
+def test_push(stack):
     stack.push(3)
     assert len(stack) == 1
