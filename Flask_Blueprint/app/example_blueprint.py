@@ -4,4 +4,4 @@ example_blueprint = Blueprint('example_blueprint', __name__)
 
 @example_blueprint.route('/')
 def index():
-    retuern "this is an example app"
+    return "this is an example app"
