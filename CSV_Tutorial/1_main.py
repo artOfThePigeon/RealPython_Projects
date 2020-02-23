@@ -1,5 +1,5 @@
 ''' 
-gathers data from a csv and prints the information as a string in a human-readable
+gathers birthday data from a csv and prints the information as a string in a human-readable
 format.
 '''
 
