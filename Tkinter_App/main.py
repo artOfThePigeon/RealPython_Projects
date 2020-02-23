@@ -2,8 +2,11 @@
 
 import tkinter as tk
 
-window = tk.Tk()
-greeting = tk.Label(text="Hello Tkinter")
+
+# creating an object 'root' as instance of class Tk
+root = tk.Tk()
+greeting = tk.Label(root, text="Hello Tkinter")
 greeting.pack()
 
-window.mainloop()
+# This will start the blank window 
+root.mainloop()
