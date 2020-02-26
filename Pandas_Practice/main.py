@@ -48,4 +48,3 @@ columns = ('COUNTRY', 'POP', 'AREA', 'GDP', 'CONT', 'IND_DAY')
 
 df = pd.DataFrame(data=data).T
 df.to_csv('data.csv')
-
