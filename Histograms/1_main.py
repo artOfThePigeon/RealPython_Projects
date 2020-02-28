@@ -1,5 +1,7 @@
 # This exercise defines a list and then creates a function to
-# plot it. Then, Counter is used to do the same thing without
+# group it into bins and count how many times a value appears in
+# each bin.
+# Then, Counter is used to do the same thing without
 # a lot of code. I then test for functional equivalence.
 
 from collections import Counter
