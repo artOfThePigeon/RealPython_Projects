@@ -11,8 +11,8 @@ def append_dict_as_row(file_name, dict_of_elem, field_names):
         dict_writer = DictWriter(write_obj, fieldnames=field_names)
         dict_writer.writerow(dict_of_elem)
 
-def man():
-     print('*** Append new row to an existing csv file using csv.writer() in python ***')
+def main():
+    print('*** Append new row to an existing csv file using csv.writer() in python ***')
  
     # List of strings
     row_contents = [32,'Shaun','Java','Tokyo','Morning']
