@@ -4,4 +4,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def project_list(request):
-    return HttpResponse()
+    return render(request, 'projects/index.html')
