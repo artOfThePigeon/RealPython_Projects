@@ -17,7 +17,8 @@ def insertion_sort(array):
             array[j + 1] = array[j]
             j -= 1
 
-        #when you finish shifting element, you can position key_item in its correct location
+        #when you finish shifting element, you can position key_item in its
+        #correct location
         array[j + 1] = key_item
 
     return array
