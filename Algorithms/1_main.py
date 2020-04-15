@@ -1,3 +1,5 @@
+#run this after each algorithm to time it. put the algo name in the "" at bottom
+
 from random import randint
 from timeit import repeat
 
@@ -22,5 +24,5 @@ if __name__ == "__main__":
     array = [randint(0, 1000) for i in range(ARRAY_LENGTH)]
 
     # call the function using the name of the sorting algorithm and the array you just created
-    run_sorting_algorithm(algorithm="bubble_sort", array=array)   
+    run_sorting_algorithm(algorithm="", array=array)   
     
